@@ -11,7 +11,7 @@ library(glue)
 library(stringr)
 
 # IMPORTANDO IMAGEM
-img <- image_read('renders/final_plot.png')
+img <- image_read('Imgs/final_plot.png')
 
 # DEFININDO PALETA DE CORES
 colors <- met.brewer('Veronese', direction = -1)
@@ -32,6 +32,7 @@ anot <- glue::glue('Este mapa representa o relevo do estado do Rio de Janeiro. '
 
 # ANOTANDO
 img %>%
+  # Recortando imagem
   image_crop(gravity = 'center',
              geometry = '3240x1890') %>%
   # Título
