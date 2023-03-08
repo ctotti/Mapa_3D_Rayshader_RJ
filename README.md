@@ -4,7 +4,7 @@ Este repositório contém os scripts utilizados para a confecção de um mapa de
 
 ![Apenas rayshader](Imgs/plot_final_anot.png)
 
-A principal diferença entre ambos os mapas é que o mapa confeccionado com `ggplot2` em associação com `rayshader` possui legenda de cor e as coordenadas x e y incluídas na visualização. Apresentando um caráter mais técnico, enquanto o mapa sem `ggplot` é de caráter artístico.
+A principal diferença entre ambos os mapas é que o mapa confeccionado com `ggplot2` em associação com `rayshader` possui legenda de cor e as coordenadas x e y incluídas na visualização. Apresentando um caráter mais técnico, enquanto o mapa sem `ggplot2` é de caráter artístico.
 
 ![ggplot2 e rayshader](Imgs/ggplot3d_annot.png)
 
