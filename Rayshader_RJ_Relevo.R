@@ -55,6 +55,7 @@ DEM_msk <- mask(DEM_crop, RJ)
 
 plot(DEM_msk)
 
+# Visualização interativa
 mapview::mapview(DEM_msk)
 
 
